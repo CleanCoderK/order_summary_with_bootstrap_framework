@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 97%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card{
+  border: none;
+}
+
+.card-center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  max-width: 23rem;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width: 375px){
+  .card-center{
+    max-width: 23rem;
+    width: 90%;
+  }
+}
+
+.card-center > img{
+  border-radius: 20px 20px 0 0;  
+  max-width: 100%;
+}
+
+.card-plan{
+  border-radius: 5px;
+  background-color: var(--very-pale-blue);
+}
+
+.order{
+  font-weight: 900;
+}
+
+.annual{
+  font-weight: 700;
+}
+
+.btn-payment{
+  color: white;
+  background-color: var(--bright-blue);
+  border-radius: 5px;
+}
+
+.btn-payment:hover{
+  color: var(--desaturated-blue);
+}
