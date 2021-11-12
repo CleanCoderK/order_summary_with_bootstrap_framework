@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/order_summary_with_bootstrap_framework)
-- Live Site URL: [live site URL here](https://green-cyber.github.io/order_summary_with_bootstrap_framework/)
+- Solution URL: [solution URL here](https://github.com/CleanCoderK/order_summary_with_bootstrap_framework)
+- Live Site URL: [live site URL here](https://cleancoderk.github.io/order_summary_with_bootstrap_framework/)
 
 ## My process
 
@@ -43,4 +43,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@green-cyber](https://www.frontendmentor.io/profile/green-cyber)
+- Frontend Mentor - [@CleanCoderK](https://www.frontendmentor.io/profile/green-cyber)
